@@ -6,6 +6,7 @@ namespace TokenDemo
 {
     internal class SimpleAuthorizationServerProvider : OAuthAuthorizationServerProvider
     {
+        // Add comment
         public override async Task ValidateClientAuthentication(OAuthValidateClientAuthenticationContext context)
         {
             context.Validated();
